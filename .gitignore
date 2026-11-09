@@ -1,0 +1,33 @@
+# API credentials
+config/api_config.php
+
+# Composer dependencies
+vendor/
+
+# Environment files
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Secrets (any folder)
+db.php
+api_config.php
+**/config/.env
+
+# Debug / test files
+debug.php
+test_openai.php
+admin-pages/check_*.php
+admin-pages/test*.php
+staff-images/test.php
+
+# User uploads (personal data)
+student-pages/uploads/*
+!student-pages/uploads/.gitkeep
+staff-pages/uploads/*
+!staff-pages/uploads/.gitkeep
