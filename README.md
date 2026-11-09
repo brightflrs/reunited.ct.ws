@@ -217,7 +217,7 @@ For local development, the app expects to be served from `/Reunited/`, so clone 
 ```bash
 # XAMPP on Windows
 cd C:\xampp\htdocs
-git clone https://github.com/Felisyal/Reunited-Lost-and-Found-System.git Reunited
+git clone https://github.com/brightflrs/reunited.ct.ws.git
 cd Reunited
 ```
 
